@@ -51,7 +51,7 @@
     margin: 1rem;
     padding: 1rem;
     width: 50%;
-    background-color: rgb(227, 232, 255);
+    background-color: rgb(234, 238, 255);
     border-radius: 4px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -59,17 +59,19 @@
 #game-configuration h2 {
     font-size: 1rem;
     margin: 0.5rem 0;
+    color: rgb(92, 90, 97);
+    text-transform: uppercase;
 }
 
 #game-configuration h3 {
     font-size: 1.5rem;
     margin: 0.5rem 0;
-    color: #2C42BF;
+    color: rgb(46, 23, 250);
 }
 
 .player-symbol {
     font-size: 2rem;
     font-weight: bold;
-    color: #F24141;
+    color: rgb(163, 70, 252);
     margin: 0.5rem 0;
 }

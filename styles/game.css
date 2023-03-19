@@ -1,7 +1,7 @@
 #active-game {
     text-align: center;
     margin: 2rem 0 5rem 0;
-    /* display: none; */
+    display: none;
 }
 
 #game-over {
@@ -9,7 +9,8 @@
     max-width: 40rem;
     margin: auto;
     padding: 1rem 2rem;
-    background-color: #2C42BF;
+    background: rgb(63, 147, 251);
+    background: radial-gradient(circle, rgba(63, 147, 251, 1) 0%, rgba(163, 70, 252, 1) 100%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     color: white;
@@ -23,7 +24,7 @@
 
 #active-paleyr-name {
     font-weight: bold;
-    color: #F24141;
+    color: rgb(46, 23, 250);
 }
 
 #game-board {
@@ -54,7 +55,8 @@
 }
 
 #game-board li.disabled {
-    background-color: #2C42BF;
+    background: rgb(63, 147, 251);
+    background: radial-gradient(circle, rgba(63, 147, 251, 1) 0%, rgba(116, 70, 252, 1) 100%);
     color: white;
     cursor: default;
 }

@@ -19,7 +19,8 @@ function savePlayerConfig(event) {
 
   if (!eneteredPlayername) {
     event.target.firstElementChild.classList.add("error");
-    errorsOutputElement.textContent = "Pleas enter a valid name!";
+    errorsOutputElement.textContent =
+      "Ju lutem të shruani një emër të vlefshëm!";
     return;
   }
 
